@@ -32,10 +32,8 @@ a
 
 #problembox
     {
-        display: none;
-        justify-content: left;
-        margin-right: 69em;
-        padding: 10px;
+        display: normal;
+        width: 25em;
         border: solid .5em red;
         background-color: black;
     }
