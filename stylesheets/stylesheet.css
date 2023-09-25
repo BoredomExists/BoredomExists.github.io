@@ -33,21 +33,21 @@ a
 #problembox
     {
         display: normal;
-        width: 25em;
+        width: 23em;
         border: solid .5em red;
         background-color: black;
     }
 
 #diagrambox
     {
-        display: none;
+        display: normal;
         justify-content: center;
-        margin-top: -30em;
-        margin-right: 15em;
-        margin-left: 30em;
+        margin-top: -28.5em;
+        margin-right: 20em;
+        margin-left: auto;
+        width: 47em;
         background-color: black;
-
-        padding: 10px;
+        padding: 5px;
         border: solid .5em blue
     }
 
