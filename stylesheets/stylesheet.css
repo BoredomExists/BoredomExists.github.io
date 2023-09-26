@@ -1,57 +1,52 @@
-body
-{
+body {
     background-image: url("../images/websitebackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-h1
-    {
-        color: white;
-        font-size: 5em;
-        font-style: italic;
-        text-align: center;
-    }
+h1 {
+    color: white;
+    font-size: 5em;
+    font-style: italic;
+    text-align: center;
+}
 
-h2
-    {
-        color: white;
-        font-size: 2em;
-    }
+h2 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
 
-p
-    {
-        color: white;
-        font-size: 1.5em;
-    }
+p {
+    font-size: 1.5em;
+}
 
-a
-    {
-        text-align: center;
-    }
+div {
+    color: white;
+}
 
-#problembox
-    {
-        display: normal;
-        width: 23em;
-        border: solid .5em red;
-        background-color: black;
-    }
+#layout {
+    display: flex;
+    align-content: center;
+    justify-content: content;
+}
 
-#diagrambox
-    {
-        display: normal;
-        margin-top: -28.5em;
-        margin-right: 20em;
-        margin-left: auto;
-        width: 47em;
-        background-color: black;
-        padding: 5px;
-        border: solid .5em blue
-    }
+#layout div {
+    align-items: center;
+    background-color: black;
+    margin: 10px;
+    width: 30em;
+}
 
-#diagramimg
-    {
-        height: 25em;
-        width: 46.5em;
-    }
+#layout #problembox {
+    border: solid .5em red;
+}
+
+#layout #diagrambox {
+    border: solid .5em blue;
+    width: 42%;
+}
+
+#diagramimg {
+    width: 50em;
+}
