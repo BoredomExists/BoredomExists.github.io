@@ -32,17 +32,17 @@ div {
 #layout #problembox {
     position: absolute;
     border: solid .5em red;
-    width: 20%;
+    width: 30%;
 }
 
 #layout #diagrambox {
     position: absolute;
     top: 21%;
-    left: 25%;
+    left: 35%;
     border: solid .5em blue;
-    width: 42%;
+    width: 60%;
 }
 
 #diagramimg {
-    width: 50em;
+    width: 65em;
 }
