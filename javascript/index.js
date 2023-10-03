@@ -5,5 +5,5 @@ $(document).ready(() => {
 
     setTimeout(() => {
         $("#assign-diagram").removeClass("hidden").hide().fadeIn(2000);
-    }, 2000)
+    }, 1000)
 })
