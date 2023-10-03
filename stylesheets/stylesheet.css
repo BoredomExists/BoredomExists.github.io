@@ -20,7 +20,6 @@ h2 {
 p {
     color: white;
     font-size: 1.5em;
-    float: left;
 }
 
 .assign {
@@ -36,8 +35,8 @@ p {
     text-align: center;
 }
 
-#problemimg {
-    width: 50%;
+.assign-problem img {
+    width: 75%;
 }
 
 .assign-diagram {
@@ -49,7 +48,6 @@ p {
     text-align: center;
 }
 
-#diagramimg {
-    float: center;
-    width: 50%
+.assign-diagram img {
+    width: 75%;
 }

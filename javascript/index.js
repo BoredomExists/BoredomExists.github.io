@@ -1,7 +1,9 @@
 "use strict";
 
 $(document).ready(() => {
-    $("#problembox").show(3000);
+    setTimeout(() => {
+        $("#problembox").fadeIn(1000);
+    })
 
     setTimeout(() => {
         $("#diagrambox").show(3000);
