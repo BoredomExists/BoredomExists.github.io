@@ -1,11 +1,9 @@
 "use strict";
 
 $(document).ready(() => {
-    setTimeout(() => {
-        $("#problembox").fadeIn(1000);
-    })
+    $("#assign-problem").hide().fadeIn(2000);
 
     setTimeout(() => {
-        $("#diagrambox").show(3000);
-    }, 2500);
+        $("#assign-diagram").removeClass("hidden").hide().fadeIn(2000);
+    }, 2000)
 })

@@ -26,7 +26,14 @@ p {
     display: flex;
 }
 
+.hidden {
+    opacity: 0%;
+}
+
 .assign-problem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: black;
     border: solid red 5px;
 }
@@ -38,8 +45,10 @@ p {
 .assign-problem img {
     width: 75%;
 }
-
 .assign-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: black;
     border: solid blue 5px;
 }
