@@ -18,33 +18,38 @@ h2 {
 }
 
 p {
-    font-size: 1.5em;
-}
-
-div {
     color: white;
+    font-size: 1.5em;
+    float: left;
 }
 
-#layout div {
+.assign {
+    display: flex;
+}
+
+.assign-problem {
     background-color: black;
+    border: solid red 5px;
 }
 
-#layout #problembox {
-    display: none;
-    position: absolute;
-    border: solid .5em red;
-    width: 25%;
+.assign-problem p {
+    text-align: center;
 }
 
-#layout #diagrambox {
-    display: none;
-    position: absolute;
-    top: 28%;
-    left: 30%;
-    border: solid .5em blue;
-    width: 53%;
+#problemimg {
+    width: 50%;
+}
+
+.assign-diagram {
+    background-color: black;
+    border: solid blue 5px;
+}
+
+.assign-diagram p{
+    text-align: center;
 }
 
 #diagramimg {
-    width: 50em;
+    float: center;
+    width: 50%
 }
