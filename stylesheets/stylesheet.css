@@ -24,6 +24,7 @@ p {
 
 .assign {
     display: flex;
+    left: 0px;
 }
 
 .hidden {
@@ -59,4 +60,12 @@ p {
 
 .assign-diagram img {
     width: 75%;
+}
+
+.leftButton, .rightButton {
+    height: 55px;
+}
+.leftButton img, .rightButton img {
+    width: 50px;
+    height: 50px;
 }
