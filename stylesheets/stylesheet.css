@@ -62,6 +62,22 @@ p {
     width: 75%;
 }
 
+.assign-persona {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border: solid lime 5px;
+}
+
+.assign-persona p {
+    text-align: center;
+}
+.assign-persona img {
+    height: 80%;
+    width: 75%;
+}
+
 .leftButton, .rightButton {
     height: 55px;
 }
