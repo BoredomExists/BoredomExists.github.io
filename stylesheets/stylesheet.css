@@ -78,6 +78,14 @@ p {
     width: 75%;
 }
 
+.assign-story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border: solid yellow 5px;
+}
+
 .leftButton, .rightButton {
     height: 55px;
 }

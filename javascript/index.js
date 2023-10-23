@@ -7,11 +7,13 @@ $(document).ready(() => {
     const assignProblem = $("#assign-problem");
     const assignDiagram = $("#assign-diagram");
     const assignPersona = $("#assign-persona");
+    const assignStory = $("#assign-story");
 
     let pageCount = 0;
 
     //Fade Out elements that are not on the correct page.
     assignPersona.fadeOut(1);
+    assignStory.fadeOut(1);
 
     //Here for better startup animation when loading site.
     assignProblem.removeClass("hidden").hide().fadeIn(2000);
@@ -25,6 +27,7 @@ $(document).ready(() => {
 
         if (pageCount == 0) {
             assignPersona.fadeOut(1000);
+            assignStory.fadeOut(1000);
 
             setTimeout(() => {
                 assignProblem.hide().fadeIn(1000);
@@ -41,6 +44,7 @@ $(document).ready(() => {
             //This changes to the assignments on the last page | Changes the code to match the last assignment added
             setTimeout(() => {
                 assignPersona.removeClass("hidden").fadeIn(1000);
+                assignStory.removeClass("hidden").fadeIn(1000);
             }, 1000);
         }
     })
@@ -54,6 +58,7 @@ $(document).ready(() => {
 
             setTimeout(() => {
                 assignPersona.removeClass("hidden").hide().fadeIn(1000);
+                assignStory.removeClass("hidden").fadeIn(1000);
             }, 1000)
         }
         else if(pageCount > 1) //This changes to last page number that exists
@@ -61,6 +66,7 @@ $(document).ready(() => {
             pageCount = 0; //Sends the user to the first page | This changes everytime the website gains a new assignment
 
             assignPersona.fadeOut(1000);
+            assignStory.fadeOut(1000);
 
             //This changes to the assignments on the first page
             setTimeout(() => {
