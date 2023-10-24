@@ -86,6 +86,10 @@ p {
     border: solid yellow 5px;
 }
 
+.assign-story img {
+    height: 70%;
+}
+
 .leftButton, .rightButton {
     height: 55px;
 }
