@@ -37,6 +37,7 @@ p {
     align-items: center;
     background-color: black;
     border: solid red 5px;
+    padding: 5px;
 }
 
 .assign-problem p {
@@ -52,6 +53,7 @@ p {
     align-items: center;
     background-color: black;
     border: solid blue 5px;
+    padding: 5px;
 }
 
 .assign-diagram p{
@@ -68,6 +70,7 @@ p {
     align-items: center;
     background-color: black;
     border: solid lime 5px;
+    padding: 5px;
 }
 
 .assign-persona p {
@@ -84,10 +87,11 @@ p {
     align-items: center;
     background-color: black;
     border: solid yellow 5px;
+    padding: 5px;
 }
 
 .assign-story img {
-    height: 70%;
+    height: 65%;
 }
 
 .leftButton, .rightButton {
