@@ -22,6 +22,11 @@ p {
     font-size: 1.5em;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .assign {
     display: flex;
     left: 0px;
@@ -46,7 +51,9 @@ p {
 
 .assign-problem img {
     width: 75%;
+    border: dotted red 8px;
 }
+
 .assign-diagram {
     display: flex;
     flex-direction: column;
@@ -62,6 +69,12 @@ p {
 
 .assign-diagram img {
     width: 75%;
+    padding: 5px;
+    border: dotted blue 8px;
+}
+
+.assign-diagram a:hover {
+    border: solid blue 5px;
 }
 
 .assign-persona {
@@ -79,6 +92,11 @@ p {
 .assign-persona img {
     height: 80%;
     width: 75%;
+    border: dotted lime 8px;
+}
+
+.assign-persona a:hover {
+    border: solid lime 5px;
 }
 
 .assign-story {
@@ -92,6 +110,11 @@ p {
 
 .assign-story img {
     height: 65%;
+    border: dotted yellow 8px;
+}
+
+.assign-story a:hover {
+    border: solid yellow 5px;
 }
 
 .assign-sketch {
@@ -101,6 +124,18 @@ p {
     background-color: black;
     border: solid orange 5px;
     padding: 5px;
+}
+
+.assign-sketch img {
+    border: dotted orange 8px;
+}
+
+.assign-sketch p {
+    text-align: center;
+}
+
+.assign-sketch a:hover {
+    border: solid orange 5px;
 }
 
 .leftButton, .rightButton {
