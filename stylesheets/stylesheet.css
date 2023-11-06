@@ -94,6 +94,15 @@ p {
     height: 65%;
 }
 
+.assign-sketch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border: solid orange 5px;
+    padding: 5px;
+}
+
 .leftButton, .rightButton {
     height: 55px;
 }
