@@ -20,6 +20,7 @@ h2 {
 p {
     color: white;
     font-size: 1.5em;
+    text-align: center;
 }
 
 a {
@@ -45,10 +46,6 @@ a {
     padding: 5px;
 }
 
-.assign-problem p {
-    text-align: center;
-}
-
 .assign-problem img {
     width: 75%;
     border: dotted red 8px;
@@ -61,10 +58,6 @@ a {
     background-color: black;
     border: solid blue 5px;
     padding: 5px;
-}
-
-.assign-diagram p{
-    text-align: center;
 }
 
 .assign-diagram img {
@@ -86,9 +79,6 @@ a {
     padding: 5px;
 }
 
-.assign-persona p {
-    text-align: center;
-}
 .assign-persona img {
     height: 80%;
     width: 75%;
@@ -128,10 +118,7 @@ a {
 
 .assign-sketch img {
     border: dotted orange 8px;
-}
-
-.assign-sketch p {
-    text-align: center;
+    width: 50%;
 }
 
 .assign-sketch a:hover {
