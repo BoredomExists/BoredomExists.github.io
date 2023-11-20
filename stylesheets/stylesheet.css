@@ -125,6 +125,24 @@ a {
     border: solid orange 5px;
 }
 
+.assign-paperproto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border: solid #DB12E5 5px;
+    padding: 5px;
+}
+
+.assign-paperproto img {
+    width: 50%;
+    border: dotted #DB12E5 8px;
+}
+
+.assign-paperproto a:hover {
+    border: solid #DB12E5 5px;
+}
+
 .leftButton, .rightButton {
     height: 55px;
 }
