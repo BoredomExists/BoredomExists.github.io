@@ -11,6 +11,7 @@ $(document).ready(() => {
     const assignStory = $("#assign-story");
     const assignSketch = $("#assign-sketch");
     const assignPaperProto = $("#assign-paperproto");
+    const assignHiFiProto = $("#assign-hifiproto");
 
     let pageCount = 0;
 
@@ -19,6 +20,7 @@ $(document).ready(() => {
     assignStory.fadeOut(1);
     assignSketch.fadeOut(1);
     assignPaperProto.fadeOut(1);
+    assignHiFiProto.fadeOut(1);
 
     //Here for better startup animation when loading site.
     assignProblem.removeClass("hidden").hide().fadeIn(2000);
@@ -49,17 +51,25 @@ $(document).ready(() => {
                 assignStory.removeClass("hidden").hide().fadeIn(1000);
             }, 1000)
         }
+        else if(pageCount == 2)
+        {
+            assignHiFiProto.fadeOut(1000);
+
+            setTimeout(() => {
+                assignSketch.removeClass("hidden").hide().fadeIn(1000);
+                assignPaperProto.removeClass("hidden").hide().fadeIn(1000);
+            }, 1000)
+        }
         else if(pageCount < 0)
         {
-            pageCount = 2; //Sends the user to the last page | This changes everytime the website gains a new Page (2 Assignments per Page)
+            pageCount = 3; //Sends the user to the last page | This changes everytime the website gains a new Page (2 Assignments per Page)
 
             assignProblem.fadeOut(1000);
             assignDiagram.fadeOut(1000);
 
             //This changes to the assignments on the last page | Changes the code to match the last assignment added
             setTimeout(() => {
-                assignSketch.removeClass("hidden").fadeIn(1000);
-                assignPaperProto.removeClass("hidden").fadeIn(1000);
+                assignHiFiProto.removeClass("hidden").fadeIn(1000);
             }, 1000);
         }
     })
@@ -86,13 +96,21 @@ $(document).ready(() => {
                 assignPaperProto.removeClass("hidden").hide().fadeIn(1000);
             }, 1000)
         }
-        else if(pageCount > 2) //This changes to last page number that exists | This changes everytime website the gains a new Page (2 Assignments per Page)
+        else if (pageCount == 3)
+        {
+            assignSketch.fadeOut(1000);
+            assignPaperProto.fadeOut(1000);
+
+            setTimeout(() => {
+                assignHiFiProto.removeClass("hidden").hide().fadeIn(1000);
+            }, 1000)
+        }
+        else if(pageCount > 3) //This changes to last page number that exists | This changes everytime website the gains a new Page (2 Assignments per Page)
         {
             pageCount = 0; //Sends the user to the first page
 
             //These elements changes to the assignments on the last page
-            assignSketch.fadeOut(1000);
-            assignPaperProto.fadeOut(1000);
+            assignHiFiProto.fadeOut(1000);
 
             //This changes to the assignments on the first page
             setTimeout(() => {

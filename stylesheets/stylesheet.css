@@ -143,6 +143,24 @@ a {
     border: solid #DB12E5 5px;
 }
 
+.assign-hifiproto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border: solid #3F888F 5px;
+    padding: 5px;
+}
+
+.assign-hifiproto img {
+    width: 75%;
+    border: dotted #3F888F 8px;
+}
+
+.assign-hifiproto a:hover {
+    border: solid #3F888F 5px;
+}
+
 .leftButton, .rightButton {
     height: 55px;
 }
